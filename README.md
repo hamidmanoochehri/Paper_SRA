@@ -11,10 +11,10 @@ A brief description of your project and its purpose.
 - [License](#license)
 
 ## Dependencies
-torch       = 2.0.1+cu118
-torchvision = 0.15.2+cu118   
-pillow      = 9.4.0
-numpy       = 1.26.2
+torch       = 2.0.1+cu118 \
+torchvision = 0.15.2+cu118 \  
+pillow      = 9.4.0 \
+numpy       = 1.26.2 \
 pandas      = 1.2.3
 sklearn     = 1.2.2
 tensorboard = 2.15.1
