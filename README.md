@@ -54,27 +54,15 @@ echo -e "\n\Classification completed"
 root
 
 ├── code_snapshotting.py         : Takes copy of the required codes to the results folder at the beginning og each experiment along with unique experiment number
-
 ├── main_lincls.py               : Classification main code (run this)
-
 ├── main_moco.py                 : Pretraining main code (run this)
-
 ├── moco
-
 │   ├── builder_v1.py            : 
-
 │   ├── loader.py                : 
-
 │   └── optimizer.py             :
-
 ├── pytorch_balanced_sampler     : Balanced sampler code for classification (obtained from TODO)
-
 │   ├── sampler.py
-
 │   └── utils.py
-
 ├── README.md                    : README file (this file)
-
 ├── sra_v4.py                    : Stain Reconstruction Augmentation (SRA) main code
-
 ├── tcgakirc_adaptive_params.txt : Calculated adaptive parameters for TCGA KIRC slides
