@@ -36,6 +36,7 @@ CUDA_VISIBLE_DEVICES=0,1 python main_moco.py \
     --multiprocessing-distributed --world-size 1 --rank 0 \
     --data /data_folder_in_imagefolder_format
 echo "Pretraining completed"
+```
 
 Example usage (Classification):
 ```bash
@@ -50,6 +51,7 @@ CUDA_VISIBLE_DEVICES=$gpu python main_lincls.py \
     --lr 0.1 \
     -j 32
 echo -e "\n\Classification completed"
+```
 
 # Structure
 * Only required files for implementation of SRA are listed
