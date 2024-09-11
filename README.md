@@ -11,12 +11,18 @@ A brief description of your project and its purpose.
 - [License](#license)
 
 ## Dependencies
-torch       = 2.0.1+cu118 \
-torchvision = 0.15.2+cu118 \  
-pillow      = 9.4.0 \
-numpy       = 1.26.2 \
+torch       = 2.0.1+cu118
+
+torchvision = 0.15.2+cu118  
+
+pillow      = 9.4.0
+
+numpy       = 1.26.2
+
 pandas      = 1.2.3
+
 sklearn     = 1.2.2
+
 tensorboard = 2.15.1
 
 ## Usage
@@ -55,16 +61,28 @@ echo -e "\n\Classification completed"
 
 # Structure
 * Only required files for implementation of SRA are listed
+* 
 sra_v4.py                    : Stain Reconstruction Augmentation (SRA) main code
+
 tcgakirc_adaptive_params.txt : Calculated adaptive parameters for TCGA KIRC slides
+
 code_snapshotting.py         : Takes copy of the required codes to the results folder at the beginning og each experiment along with unique experiment number
+
 main_moco.py                 : Pretraining main code (run this)
+
 main_lincls.py               : Classification main code (run this)
+
 moco/
+
     builder_v1.py            : 
+    
     loader.py                :
+    
     optimizer.py             :
 pytorch_balanced_sampler/     : Balanced sampler code for classification (obtained from TODO)
+
     sampler.py
+    
     utils.py
+    
 README.md                    : README file (this file)
