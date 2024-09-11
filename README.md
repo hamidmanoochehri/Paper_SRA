@@ -21,6 +21,7 @@ tensorboard = 2.15.1
 
 ## Usage
 Example usage (Pretraining):
+```bash
 CUDA_VISIBLE_DEVICES=0,1 python main_moco.py \
     --mode 'train' \
     --rgb-he-wrgb-dist-Hmax 'uniform' \
@@ -37,7 +38,8 @@ CUDA_VISIBLE_DEVICES=0,1 python main_moco.py \
 echo "Pretraining completed"
 
 Example usage (Classification):
-  CUDA_VISIBLE_DEVICES=$gpu python main_lincls.py \
+```bash
+CUDA_VISIBLE_DEVICES=$gpu python main_lincls.py \
     --data /data_folder_in_imagefolder_format \
     --pretrained /path_to_pretrained_model \
     --epochs 30 \
