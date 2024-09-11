@@ -55,6 +55,7 @@ echo -e "\n\Classification completed"
 
 # Structure
 * Only required files for implementation of SRA are listed \
+```
 sra_v4.py                    : Stain Reconstruction Augmentation (SRA) main code \
 tcgakirc_adaptive_params.txt : Calculated adaptive parameters for TCGA KIRC slides \
 code_snapshotting.py         : Takes copy of the required codes to the results folder at the beginning og each experiment along with unique experiment number \
@@ -68,3 +69,4 @@ pytorch_balanced_sampler/     : Balanced sampler code for classification (obtain
     sampler.py \
     utils.py \
 README.md                    : README file (this file) \
+```
