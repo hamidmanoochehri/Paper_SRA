@@ -1,6 +1,7 @@
 # Project Title
 
-A brief description of your project and its purpose.
+code implementation of the PathMoCo paper:
+https://arxiv.org/abs/2410.17514
 
 ## Table of Contents
 - [Stain Reconstruction Augmentation](#stain_reconst_augm)
