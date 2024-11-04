@@ -1,6 +1,6 @@
 # Project Title
 
-code implementation of the PathMoCo paper:
+code implementation of the SRA paper:
 https://arxiv.org/abs/2410.17514
 
 ## Table of Contents
